@@ -1,0 +1,19 @@
+interface FY {
+    int roll no = 101;
+    String name = "shruti";
+}
+interface SY {
+    String result = "Pass";
+}
+
+class Student implements FY, SY {
+    void display(){
+        System.out.println("Roll:" + rollno);
+        System.out.println("name:"+ name);
+        System.out.println("Result:"+result);
+ }
+ public static void main (String[]args) {
+    Student s =new Student():
+    s.display();
+ }
+}
